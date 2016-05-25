@@ -1,4 +1,4 @@
-package com.androidzeitgeit.jomb;
+package com.androidzeitgeist.jomb;
 
 import android.app.Activity;
 import android.content.Intent;

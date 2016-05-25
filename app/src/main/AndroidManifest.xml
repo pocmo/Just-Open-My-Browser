@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androidzeitgeit.jomb">
+    package="com.androidzeitgeist.jomb">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.androidzeitgeist.jomb.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
         </activity>
 
         <activity
-            android:name=".DispatcherActivity"
+            android:name="com.androidzeitgeist.jomb.DispatcherActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -39,7 +39,7 @@
         </activity>
 
         <service
-            android:name=".CustomTabsService"
+            android:name="com.androidzeitgeist.jomb.CustomTabsService"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.support.customtabs.action.CustomTabsService" />
