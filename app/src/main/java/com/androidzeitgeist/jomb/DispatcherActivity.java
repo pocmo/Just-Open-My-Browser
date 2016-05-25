@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 public class DispatcherActivity extends Activity {
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,4 +17,5 @@ public class DispatcherActivity extends Activity {
 
         finish();
     }
+
 }
