@@ -1,4 +1,4 @@
-package com.androidzeitgeit.jomb;
+package com.androidzeitgeist.jomb;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
