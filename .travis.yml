@@ -9,4 +9,5 @@ android:
     - extra-google-m2repository
     - extra-android-m2repository
 sudo: false
-
+script:
+  - ./gradlew lint test
