@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public enum Browser {
+
     CHROME_STABLE("com.android.chrome"),
     CHROME_BETA("com.android.chrome"),
     CHROME_DEV("com.chrome.dev"),
@@ -47,4 +48,5 @@ public enum Browser {
 
         return installedBrowsers;
     }
+
 }
